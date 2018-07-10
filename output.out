@@ -1,0 +1,17 @@
+/home/qlu/Coding/restaurant/Bayes.py:19: RuntimeWarning: divide by zero encountered in log
+  p2_x = sum(vector * px_2) + np.log(p_neu)
+Load Train Cost:6.450000s
+Create Vocab Cost:3.520000s
+TF Cost:8.120000s
+23374
+doc_mat cost:234.870000s
+doc_mat cost:2.630000s
+Train cost:516.650000s
+Test Cost:548.910000s
+#############################
+Traceback (most recent call last):
+  File "main.py", line 26, in <module>
+    FM.f_measure(real_class, test_class)
+  File "/home/qlu/Coding/restaurant/FM.py", line 55, in f_measure
+    right_rate_2  = right_2 / count_2
+ZeroDivisionError: division by zero

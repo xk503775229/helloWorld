@@ -1,0 +1,32 @@
+Load Train Cost:6.720000s
+Create Vocab Cost:4.160000s
+TF Cost:7.600000s
+23374
+doc_mat cost:221.930000s
+doc_mat cost:2.410000s
+Train cost:468.410000s
+[  5.  21.  89. ...,  12.  34.  73.] 
+[   3.    8.    2. ...,    5.   62.  120.] 
+
+6518696.0 
+5462872.0 
+5922108.0
+##################################
+[-14.080747   -12.64566248 -11.20154854 ..., -13.20527826 -12.16382439
+ -11.39972547] 
+[-14.41487293 -13.43404368 -14.82033804 ..., -13.9040473  -11.38635083
+ -10.72599347]
+#################################
+Test Cost:497.520000s
+#############################
+positive precision  :0.801887 
+positive recall rate:0.710554 
+positive F-measure  :0.753463 
+negative precision  :0.794835 
+negative recall rate:0.557905 
+negative F-measure  :0.655621 
+neutral  precision  :0.680427 
+neutral  recall rate:0.956000 
+neutral  F-measure  :0.795010 
+right rate          :0.742373
+总计耗时:740.470000s
